@@ -2823,7 +2823,7 @@ header.header-nav.menu_style_home_seven .ace-responsive-menu > li.last{
 }
 .home3_bgi6{
   /*background-image: url(../images/background/6.jpg);*/
-  background-image: url(/images/background/6.jpg);
+  background-image: url("../images/background/6.jpg");
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -5719,7 +5719,7 @@ header.header-nav.menu_style_home_seven .ace-responsive-menu > li.last{
 }
 
 .our-team.instructor-page .owl-carousel .owl-stage-outer{
-  padding: 30px 0px;
+  padding-: 30px 0px;
 }
 
 
@@ -6733,7 +6733,7 @@ ul.mc_parent_list ul.mc_child_list:hover .pricing_btn{
 }
 /*== Our Partners ==*/
 .our-partner {
-  padding: 40px 0;
+  paddingM: 40px 0;
 }
 .our_partner{
   text-align: center;
@@ -7920,6 +7920,28 @@ ul.mc_parent_list ul.mc_child_list:hover .pricing_btn{
 .blog_search_widget button#button-addon2:hover{
   color: #6c757d;
 }
+
+/* ==== my card ===*/
+.myCard{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(221, 221, 221);
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  flex-: 1;
+  height-: 48px;
+  padding-left-: 20px;
+  width-: 100%;
+  margin-right-: 5px;
+  -webkit-box-shadow:0px 1px 4px 0px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow:0px 1px 4px 0px rgba(0, 0, 0, 0.09);
+  box-shadow:0px 1px 4px 0px rgba(0, 0, 0, 0.09);
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; 
+}
+
 /*== Category Widget Blog Page ==*/
 .blog_category_widget{
   margin-bottom: 30px;
@@ -9825,11 +9847,11 @@ ul.mc_parent_list ul.mc_child_list:hover .pricing_btn{
 .media_slider_home7.owl-carousel.owl-theme.owl-loaded .owl-next {
   background-color: #ffffff !important;
   color: #1c327e;
-  height: 50px;
+  height-: 50px;
   line-height: 45px;
   position: absolute;
   top: 175px;
-  width: 50px;
+  width-: 50px;
   -webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.1);
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.1);
@@ -9839,7 +9861,7 @@ ul.mc_parent_list ul.mc_child_list:hover .pricing_btn{
   transition: all 0.3s ease 0s;
 }
 .popular_course_slider_home3 .item{
-  margin: 0 7px 30px;
+  margin-: 0 7px 30px;
 }
 .popular_course_slider_home3.owl-carousel.owl-theme.owl-loaded .owl-prev,
 .popular_course_slider_home3.owl-carousel.owl-theme.owl-loaded .owl-next{
@@ -11584,7 +11606,7 @@ ul.mc_parent_list ul.mc_child_list:hover .pricing_btn{
 /*== BackGround Images ==*/
 .bg-img2 {
   /*background-image: url("../images/background/2.jpg");*/
-  background-image: url("/images/background/2.jpg");
+  background-image: url("../images/background/2.jpg");
 }
 .bg-img5 {
   background-attachment: scroll;
@@ -13857,3 +13879,16 @@ header.header-nav.menu_style_home_one.new_style .sign_up_btn li.list_s{
   background-color: rgb(1, 46, 110);
   padding: 8px 25px;
 }
+
+/* ==== form Multiple === */
+.colorFont{
+  background-color: #fff;
+  color: #000;
+}
+.labelColor{
+  color: #fff;
+}
+/*input[type=text]{
+  background-color: yellow;
+  color: #fff;
+}*/

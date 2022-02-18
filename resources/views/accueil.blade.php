@@ -25,6 +25,7 @@
 
 		<!-- link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" -->
 		<link rel="stylesheet" type="text/css" href="{{asset('font-awesome-4.7.0/css/font-awesome.min.css')}}">
+		
 
 	</head>
 </head>
@@ -82,18 +83,22 @@
 											</h2>
 											<div class="content-vertical">
 												<ul id="vertical-menu" class="mega-vertical-menu nav navbar-nav">
-													<li><a href="#">Comptes écoles</a></li>
-													<li><a href="#">Branches par option</a></li>
+													<li><a href="https://yeccolapp.education/app/">Gestion scolaire</a></li>
+													<li><a href="#">Prix excellent</a></li>
+													<li><a href="https://yeccolapp.education/app/">Prévisions des matières uniformisées</a></li>
+													<li><a href="formulaireFOrmation">Formation et sensibilisation Continue (2030)</a></li>
+													<!-- 
 													<li><a href="#">Yeccolapp Award</a></li>
 													<li><a href="#">Cartographie des écoles</a></li>
 													<li><a href="#">Changement de mentalité (CCM)</a></li>
-													<li><a href="#">Prévisions des matières uniformisées</a></li>
+													
 													<li><a href="#">STEM</a></li>
 													<li><a href="#">Cursus scolaire</a></li>
-													<li><a href="#">Formation et sensibilisation aux TIC</a></li>
+													
 													<li><a href="#">Coaching scolaire</a></li>
 													<li><a href="#">YeccoTech</a></li>
 													<li><a href="#">YeccoBox</a></li>
+												-->
 												</ul>
 											</div>
 										</div>
@@ -369,9 +374,9 @@
 				<div class="row posr">
 					<div class="col-lg-12">
 						<div class="home-text text-center">
-							<h2 class="fz50">Contenus éducatifs de qualité et uniformisés pour tout enfant congolais, enseignant et parents d'élèves.</h2>
-							<p class="color-white">Yeccolapp "appui à la réforme du système éducatif congolais"</p>
-							<a class="btn home_btn" href="#">Commencer</a>
+							<h2 class="fz50">Contenus éducatifs de qualité et uniformisés pour tout enfant, étudiant, enseignants et parents d'élèves Congolais et Africain.(ODD-4)</h2>
+							<p class="color-white">Yeccolapp "Enseignant du futur"</p>
+							<a class="btn home_btn" href="https://yeccolapp.education/app/">Commencer</a>
 						</div>
 					</div>
 				</div>
@@ -383,10 +388,10 @@
 		<!-- End Home Design -->
 
 		<!-- School category courses -->
-		<section class="school-category-courses pt30">
+		{{-- <section class="school-category-courses pt30">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-6 offset-lg-3">
+					<div class="col-lg-6 offset-lg-2">
 						<div class="main-title text-center">
 							<h3 class="mt0">Cartographie des écoles repertoriées par provinces.</h3>
 							<p>Plus de 5.000.000 d'utilisateurs (Élèves, enseignants et parents) bénéficient des services yeccolapp</p>
@@ -394,7 +399,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-6 col-lg-3">
+					<div class="col-sm-6 col-lg-2">
 						<div class="img_hvr_box home3" style="background-image: url('{{asset('images/courses/2.jpeg')}}');">
 							<div class="overlay">
 								<div class="details">
@@ -404,7 +409,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-6 col-lg-3">
+					<div class="col-sm-6 col-lg-2">
 						<div class="img_hvr_box home3" style="background-image: url('{{asset('images/courses/1.png')}}');">
 							<div class="overlay">
 								<div class="details">
@@ -414,7 +419,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-6 col-lg-3">
+					<div class="col-sm-6 col-lg-2">
 						<div class="img_hvr_box home3" style="background-image: url('{{asset('images/courses/3.jpeg')}}');">
 							<div class="overlay">
 								<div class="details">
@@ -424,7 +429,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-6 col-lg-3">
+					<div class="col-sm-6 col-lg-2">
 						<div class="img_hvr_box home3" style="background-image: url('{{asset('images/courses/4.jpeg')}}');">
 							<div class="overlay">
 								<div class="details">
@@ -434,7 +439,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-6 col-lg-3">
+					<div class="col-sm-6 col-lg-2">
 						<div class="img_hvr_box home3" style="background-image: url('{{asset('images/courses/5.jpeg')}}');">
 							<div class="overlay">
 								<div class="details">
@@ -444,7 +449,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-6 col-lg-3">
+					<div class="col-sm-6 col-lg-2">
 						<div class="img_hvr_box home3" style="background-image: url('{{asset('images/courses/6.jpg')}}');">
 							<div class="overlay">
 								<div class="details">
@@ -454,7 +459,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-6 col-lg-3">
+					<div class="col-sm-6 col-lg-2">
 						<div class="img_hvr_box home3" style="background-image: url('{{asset('images/courses/7.jpg')}}');">
 							<div class="overlay">
 								<div class="details">
@@ -464,8 +469,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-6 col-lg-3">
-						<div class="img_hvr_box home3" style="background-image: url('{{asset('images/courses/8.jpg')}}');">
+					<div class="col-sm-6 col-lg-2">
+						<div class="img_hvr_box home3" style="background-image: url('{{asset('images/partners/1_ITM.png')}}');">
 							<div class="overlay">
 								<div class="details">
 									<h5>Autres</h5>
@@ -481,94 +486,359 @@
 					</div> -->
 				</div>
 			</div>
-		</section>
+		</section> --}}
 		<!-- End School category courses -->
+
+		<!-- Nos Objectif -->
+		<section>
+			<div class="row bg-successM">
+				<div class="col-sm-12 col-md-6 col-lg-5 col-xl-5">
+					<div class="blog_slider_home1 owl-carousel owl-theme owl-loaded">
+						<div class="owl-stage-outer">
+							<div class="owl-stage" style="transform: translate3d(-2820px, 0px, 0px); transition: all 2s ease 0s; width: 4935px;">
+								<div class="owl-item cloned" style="width: 690px; margin-right: 15px;">
+									<div class="item">
+										<div class="blog_post one">
+											<div class="thumb">
+												<!-- div class="post_title">
+													Events
+												</div -->
+												<img class="img-fluid w100" src="{{asset('images/blog/1a.jpg')}}" alt="1a.jpg">
+												<!-- a class="post_date" href="#">
+													<span>28 <br> March</span>
+												</a -->
+												<a class="post_date" href="#">
+													<span>Patrick</span>
+												</a>
+											</div>
+											<div class="details">
+												<!-- div class="post_meta">
+													<ul>
+														<li class="list-inline-item">
+															<a href="#">
+																<i class="flaticon-calendar"></i> 8:00 am - 5:00 pm
+															</a>
+														</li>
+														<li class="list-inline-item">
+															<a href="#">
+																<i class="flaticon-placeholder"></i> Vancouver, Canada
+															</a>
+														</li>
+													</ul>
+												</div -->
+												<!-- h4>Elegant Light Box Paper Cut Dioramas New Design Conference</h4 -->
+												<h4>Dev Chez Yeccolapp kinshasa</h4>										
+											</div>
+										</div>
+									</div>
+								</div>	
+								<div class="owl-item cloned" style="width: 690px; margin-right: 15px;">
+									<div class="item">
+										<div class="blog_post one">
+											<div class="thumb">
+												<!-- div class="post_title">
+													Events
+												</div -->
+												<img class="img-fluid w100" src="{{asset('images/blog/1b.jpg')}}" alt="1a.jpg">
+												<!-- a class="post_date" href="#">
+													<span>28 <br> March</span>
+												</a -->
+												<a class="post_date" href="#">
+													<span>Patrick</span>
+												</a>
+											</div>
+											<div class="details">
+												<!-- div class="post_meta">
+													<ul>
+														<li class="list-inline-item">
+															<a href="#">
+																<i class="flaticon-calendar"></i> 8:00 am - 5:00 pm
+															</a>
+														</li>
+														<li class="list-inline-item">
+															<a href="#">
+																<i class="flaticon-placeholder"></i> Vancouver, Canada
+															</a>
+														</li>
+													</ul>
+												</div -->
+												<!-- h4>Elegant Light Box Paper Cut Dioramas New Design Conference</h4 -->
+												<h4>Dev Chez Yeccolapp kinshasa</h4>										
+											</div>
+										</div>
+									</div>
+								</div>						
+							</div>
+						</div>
+						<!-- div class="owl-controls">
+							<div class="owl-nav">
+								<div class="owl-prev" style="">
+									<i class="flaticon-left-arrow"></i>
+								</div>
+								<div class="owl-next" style="">
+									<i class="flaticon-right-arrow-1"></i>
+								</div>
+							</div>
+							<div class="owl-dots" style="display: none;">								
+							</div>
+						</div -->
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 bg-successM  ">
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center">
+							<img src="{{asset('images/background/ODD4_logo_SC_CD_300.png')}}" class="img-fluid center-block" />
+						</div>
+						<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+							<h3 class="text-center" style="font-size:20px;">
+								A travers nos services, nous réalisons les Objectifs de développement durables des Nations Unies pour une éducation de qualité durable en RD congo et en Afrique.
+								<a href="#panelBodyCourseStart" class="accordion-toggle linkM collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false" style="color:blue; font-size: 16px;">Lire plus</a>
+							</h3>							
+						</div>
+					</div>
+	    		</div>
+	    	</div>
+		    
+		    <!-- accordion suites Nos Objectifs -->
+			<section class="row btn-primaryM" style="padding-top:1px; padding-bottom: 0px;">
+				<div class="col-sm-12 col-md-12 col-lg-12 details text-center">
+					<div id="accordion" class="panel-group cc_tab">
+						<div class="panel bg-dangerM">
+							<!-- div class="panel-heading">
+								<h4 class="panel-title">
+									<a href="#panelBodyCourseStart" class="accordion-toggle link collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">Lire plus</a>
+								</h4>
+							</div -->
+							<div id="panelBodyCourseStart" class="panel-collapse collapse" style="">
+								<div class="panel-body">
+									<p>1. L'accèes de tout enfant Congolais et Africains à une éducation de qualité et sans discrimination (ODD);</p>
+									<p>2. Abonnement aux sessions de formation continue certifiée en alphabétisation numérique: "Aucun parent, enseignant analphabéte numérique numérique d'ici 2030";</p>
+									<p>3. Mixité garçons-filles aux métiers du futur, Sensibilisation continue des élèves, étudiants... à l'usage durable des réseaux sociaux, et à la sécurité de l'information et des infrastructures.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /accordion suites Nos Objectifs -->
+		</section>
+		<!-- /End Objectif -->
 
 		<!-- New formation -->
 		<section class="divider_home1 bg-img2 parallax" data-stellar-background-ratio="0.3" style="background-position: 50% -23.3734px;">
 			<div class="container bg-dangerM">
 				<div class="row align-items-center">
-					<div class="col-lg-4 bg-primaryM offset-lg-2M text-center">
+					<div class="col-sm-12 col-md-6 col-lg-6 bg-primaryM offset-lg-2M text-center">
 						<div class="divider-one">
-							<h4 class="color-white" style="font-weight: bold;">FORMATIONS ET SENSIBILISATION CONTINUE MARS 2022</h4>
+							<!-- h4 class="color-white" style="font-weight: bold;">FORMATIONS ET SENSIBILISATION CONTINUE MARS 2022</h4 -->
 							<!-- h1 class="color-white text-uppercase">Enhance your skIlls wIth best OnlIne courses</h1 -->
-							<p>
-								<a href="{{asset('documents/Conditions générales de participation.pdf')}}" style="color: blue;">
+							<!-- p>
+								<a href="{{asset('documents/Conditions_generales_de_participation.pdf')}}" style="color: blue;">
 									<span class="color-white">Conditions generales des participation à telecharger
 									</span>Ici...
 								</a>
-							</p>
-							<p>
+							</p -->
+							<!-- p>
 								<a href="{{asset('documents/Bulletin_inscription.pdf')}}" style="color: blue;">
 									<span class="color-white">Bullettin d’inscription pour la formation à telecharger </span>Ici...
 								</a>
-							</p>
+							</p -->
 							<!-- a class="btn btn-transparent divider-btn" href="#">Get Started Now</a -->
+
 						</div>
 					</div>
 
-					<div class="col-lg-8 bg-dangerM offset-lg-2M text-center">
+					<div class="col-sm-12 col-md-6 col-lg-6 bg-dangerM offset-lg-2M text-center">
 						<div class="divider-one">
 							<!-- p class="color-white">STARTING ONLINE LEARNING</p -->
 							<!-- h1 class="color-white text-uppercase">Enhance your skIlls wIth best OnlIne courses</h1 -->
-							<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScETF-vHZGF0mYv9tqGvsGJhfRUyGRBmS2lTrlMjFC1adW9Lg/viewform?embedded=true" width="640" height="405" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+							<!-- iframe src="https://docs.google.com/forms/d/e/1FAIpQLScETF-vHZGF0mYv9tqGvsGJhfRUyGRBmS2lTrlMjFC1adW9Lg/viewform?embedded=true" width="640" height="405" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe -->
 							<!-- a class="btn btn-transparent divider-btn" href="#">Get Started Now</a -->
+							<!-- div class="row bg-dangerM" -->
+								<form class="row" action="{{route('SendFormationMail')}}" method="POST">
+									@csrf
+									<div class="col-lg-12">
+										<h4 style="color: #fff; font-weight: bold;">Formulaire d'enregistrement pour la formation</h4>
+									</div>
+									<div class="col-sm-12 bg-primary">					
+											@if(Session::has('SendMail'))
+											<span class="bg-primaryM" style="color: #fff">{{Session::get('SendMail')}}</span>
+											@endif										
+									</div>
+									<!-- Step 1 -->
+									<div class="col-lg-6 my_profile_setting_inputM form-group">
+										<label for="formGroupExampleInput1" class="labelColor">Nom</label>
+										<input type="text" name="nom" class="form-control colorFont" id="formGroupExampleInput1" required>
+									</div>
+									<div class="col-lg-6 my_profile_setting_inputM  form-group">
+										<label for="formGroupExampleInput2" class="labelColor">Postnom</label>
+										<input type="text" name="postnom" class="form-control colorFont" id="formGroupExampleInput2">
+									</div>
+									<!-- Step 2 -->
+									<div class="col-lg-6 my_profile_setting_inputM form-group">
+										<label for="formGroupExampleInput2" class="labelColor">Ecole de l'enfant ou Institution</label>
+										<input type="text" name="nomEcole" class="form-control colorFont" id="formGroupExampleInput2">
+									</div>
+									<div class="col-lg-6 my_profile_setting_inputM form-group">
+										<label for="formGroupExampleInput2" class="labelColor">Telephone1 et Telephone2</label>
+										<input type="text" name="telephone" class="form-control colorFont" id="formGroupExampleInput2" placeholder="telephone1/Telephone2">
+									</div>
+									<!-- Step 3 -->
+									<div class="col-lg-6 my_profile_setting_inputM form-group">
+										<label for="formGroupExampleInput2" class="labelColor">Email</label>
+										<input type="text" name="email" class="form-control colorFont" id="formGroupExampleInput2" placeholder="facultatif">
+									</div>
+									<div class="col-lg-6 my_profile_setting_inputM form-group">
+										<label for="formGroupExampleInput2" class="labelColor">Commune residentielle</label>
+										<input type="text" name="commune" class="form-control colorFont" id="formGroupExampleInput2" placeholder="commune">
+									</div>
+									<!-- Step 4 -->
+									<div class="col-lg-6 my_profile_setting_inputM form-group">
+										<label for="formGroupExampleInput2" class="labelColor">Districk</label>
+										<input type="text" name="districk" class="form-control colorFont" id="formGroupExampleInput2" placeholder="">
+									</div>
+									<div class="col-lg-3 my_profile_setting_inputM form-group">
+										<label for="formGroupExampleInput2" class="labelColor">Ville</label>
+										<input type="text" name="ville" class="form-control colorFont" id="formGroupExampleInput2" placeholder="ville">
+									</div>
+									<div class="col-lg-3 my_profile_setting_inputM form-group">
+										<label for="formGroupExampleInput2" class="labelColor">Province</label>
+										<input type="text" name="province" class="form-control colorFont" id="formGroupExampleInput2" placeholder="province">
+									</div>
+									<div class="col-sm-12 bg-primary">					
+											@if(Session::has('SendMail'))
+											<span class="bg-primaryM" style="color: #fff">{{Session::get('SendMail')}}</span>
+											@endif										
+									</div>
+									<div class="col-lg-12">
+										<!-- button type="submit" class="my_setting_savechange_btn btn btn-thm">Save <span class="flaticon-right-arrow-1 ml15"></span>
+										</button -->
+										<!-- button type="submit" class="my_setting_savechange_btn btn btn-thm">Save <span class="flaticon-right-arrow-1 ml15"></span>
+										</button -->
+										<button type="submit" class="my_setting_savechange_btn btn btn-thm">Enregistrer<span class="flaticon-right-arrow-1 ml15"></span>
+										</button>
+									</div>
+								</form>
+							<!-- /div -->
 						</div>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-12 bg-dangerM text-center" style="margin-top: 20px;">
+						<!-- h4 class="color-white" style="font-weight: bold; margin-bottom: 15px;">Savoir plus sur les conditions de participation</h4 -->
+						<div class="divider-one">
+							<a class="btn btn-transparent divider-btn" href="{{asset('documents/Bulletin_inscription.pdf')}}" style="margin-right: 10px;">Je télécharge le bulletin d'inscription 2022-2030</a>
+							<a class="btn btn-transparent divider-btn" href="{{asset('documents/Conditions_generales_de_participation.pdf')}}">Savoir plus sur les conditions de participation</a>
+						</div>						
 					</div>
 				</div>
 			</div>
 		</section>
 		<!-- /End New Formation -->
 
+		<!-- Our PartnersOne -->
+		<section class="bg-successM d-flex justify-content-center">
+			<div class="container bg-primaryM" style="margin-left: 0; margin-right: 0;">
+				<div class="row">
+					<div class="col-lg-6 offset-lg-3">
+						<div class="main-title text-center">
+							<!-- h3 class="mt0">Nos partenaires </h3 -->
+							<h3 style="font-style: italic;">Ils nous font confiance</h3>
+						</div>
+					</div>
+				</div>
+				<div class="row owl-carouselMM owl-themeM bg-dangerM">
+					<!-- div class="col-lg-3 myCard bg-dangerM">
+						<h1>My Card</h1>
+					</div -->
+					<div class="col-sm-12 col-md-2 col-lg-2 bg-dangerM myCard itemM">
+						<div class="text-center">
+							<img class="img-fluid" src="images/partners/1_ITM.png" alt="1.png">
+						</div>						
+					</div>
+					<div class="col-sm-12 col-md-2 col-lg-2 bg-successM myCard itemM">
+						<div class="text-center">
+							<img class="img-fluid" src="images/partners/2_Untitled-1.png" alt="1.png">
+						</div>						
+					</div>
+					<div class="col-sm-12 col-md-2 col-lg-2 bg-primaryM myCard itemM">
+						<div class="text-center">
+							<img class="img-fluid" src="images/partners/3_Untitled-3.png" alt="1.png">
+						</div>						
+					</div>
+					<div class="col-sm-12 col-md-2 col-lg-2 bg-dangerM myCard itemM">
+						<div class="text-center">
+							<img class="img-fluid" src="images/partners/4_Untitled-3.png" alt="1.png">
+						</div>						
+					</div>
+					<div class="col-sm-12 col-md-2 col-lg-2 bg-dangerM myCard itemM">
+						<div class="text-center">
+							<img class="img-fluid" src="images/partners/5_Untitled-3.png" alt="1.png">
+						</div>						
+					</div>
+					<div class="col-sm-12 col-md-2 col-lg-2 bg-dangerM myCard itemM">
+						<div class="text-center">
+							<img class="img-fluid" src="images/partners/6_Untitled-3.png" alt="1.png">
+						</div>						
+					</div>
+					<!-- div class="col-sm-12 col-md-2 col-lg-2 bg-dangerM myCard item">
+						<div class="text-center">
+							<img class="img-fluid" src="images/partners/7.png" alt="1.png">
+						</div>						
+					</div -->
+				</div>
+			</div>
+		</section>
+		<!-- End Our PartnersOne -->
+
 		<!-- Our Partners -->
-		<section id="our-partners" class="our-partners bg-dangerM">
+		<!-- section id="our-partners" class="our-partners bg-dangerM">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 offset-lg-3">
 						<div class="main-title text-center">
-							<h3 class="mt0">Nos partenaires</h3>
+							<h3 class="mt0">Nos partenaires </h3>
+							<h3 style="font-style: italic;">Ils nous font confiance</h3>
 						</div>
 					</div>
 				</div>
 				<div class="row owl-carousel owl-theme">
-					<div class="col-sm-6 col-md-4 col-lg item">
+					<div class="col-sm-12 col-md-4 col-lg-4 item">
 						<div class="our_partner">
 							<img class="img-fluid" src="images/partners/1.png" alt="1.png">
 						</div>
 					</div>
-					<div class="col-sm-6 col-md-4 col-lg item">
+					<div class="col-sm-6 col-md-4 col-lg-4 item">
 						<div class="our_partner">
 							<img class="img-fluid" src="images/partners/2.png" alt="2.png">
 						</div>
 					</div>
-					<div class="col-sm-6 col-md-4 col-lg item">
+					<div class="col-sm-6 col-md-4 col-lg-4 item">
 						<div class="our_partner">
 							<img class="img-fluid" src="images/partners/3.png" alt="3.png">
 						</div>
 					</div>
-					<div class="col-sm-6 col-md-4 col-lg item">
+					<div class="col-sm-6 col-md-4 col-lg-4 item">
 						<div class="our_partner">
 							<img class="img-fluid" src="images/partners/4.png" alt="4.png">
 						</div>
 					</div>
-					<div class="col-sm-6 col-md-4 col-lg item">
+					<div class="col-sm-6 col-md-4 col-lg-4 item">
 						<div class="our_partner">
 							<img class="img-fluid" src="images/partners/5.png" alt="5.png">
 						</div>
 					</div>
-					<div class="col-sm-6 col-md-4 col-lg item">
+					<div class="col-sm-6 col-md-4 col-lg-4 item">
 						<div class="our_partner">
 							<img class="img-fluid" src="images/partners/6.png" alt="6.png">
 						</div>
 					</div>
-					<div class="col-sm-6 col-md-4 col-lg item">
+					<div class="col-sm-6 col-md-4 col-lg-4 item">
 						<div class="our_partner">
 							<img class="img-fluid" src="images/partners/7.JPG" style="height: auto; width: auto;" alt="7.JPG">
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
+		</section -->
 		<!-- End Our Partners -->
 
 
@@ -596,18 +866,17 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-sm-6 col-md-4 col-md-3 col-lg-2">
+					<!-- div class="col-sm-6 col-md-4 col-md-3 col-lg-2">
 						<div class="footer_program_widget home3">
 							<h4>PROGRAMMES</h4>
 							<ul class="list-unstyled">
 								<li><a href="#">Eleves</a></li>
 								<li><a href="#">Etudiants</a></li>
 								<li><a href="#">Professionels</a></li>
-								<!-- <li><a href="#">Self-Driving Car</a></li> -->
 							</ul>
 						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-md-3 col-lg-2">
+					</div -->
+					<!-- div class="col-sm-6 col-md-4 col-md-3 col-lg-2">
 						<div class="footer_support_widget home3">
 							<h4>SUPPORT</h4>
 							<ul class="list-unstyled">
@@ -616,7 +885,7 @@
 								
 							</ul>
 						</div>
-					</div>
+					</div -->
 					<div class="col-sm-6 col-md-6 col-md-3 col-lg-3">
 						<div class="footer_apps_widget home3">
 							<h4>MOBILE</h4>
@@ -723,27 +992,30 @@
 
 	<!-- le script ecrit a la mais  -->
 	<script type="text/javascript" src="{{asset('styleJs/script.js')}}"></script>
+	
 	<script>
-		$('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:20,
-    nav:false,
-    autoplay: true,
-    autoplayTimeout: 2000,
-    stagePadding: 150,
-    dots:false,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:4
-        }
-    }
-})
+		$('.owl-carouselM').owlCarousel({
+		    loop:true,
+		    /*margin:20,*/
+		    /*margin:0,*/
+		    nav:false,
+		    autoplay: true,
+		    autoplayTimeout: 2000,
+		    stagePadding: 150,
+		    dots:false,
+		    responsive: false
+		   /* responsive:{
+		        0:{
+		            items:1
+		        },
+		        600:{
+		            items:3
+		        },
+		        1000:{
+		            items:4
+		        }
+		    }*/
+		})
 	</script>	
 </body>
 </html>

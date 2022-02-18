@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FormationMailController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +20,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('accueil');
 });
+
+Route::post('/send-mail',[FormationMailController::class, 'sendMail'])->name('SendFormationMail');
