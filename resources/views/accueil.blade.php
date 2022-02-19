@@ -19,9 +19,7 @@
 		<link href="{{asset('images/favicon.ico')}}" sizes="128x128" rel="shortcut icon" type="image/x-icon" />
 		<link href="{{asset('images/favicon.ico')}}" sizes="128x128" rel="shortcut icon" />
 
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" type="text/css" href="{{asset('OwlCarousel2-2.3.4/dist/assets/owl.carousel.css')}}" />
 
 		<!-- link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" -->
 		<link rel="stylesheet" type="text/css" href="{{asset('font-awesome-4.7.0/css/font-awesome.min.css')}}">
@@ -43,9 +41,9 @@
 					</div>
 					<div class="col-lg-7 col-xl-7">
 				        <ul class="sign_up_btn pull-right dn-smd mt15 home3">
-			                <!-- <li class="list-inline-item"><a href="#" class="btn btn-md"><i class="flaticon-megaphone"></i><span class="dn-md">Become an Instructor</span></a></li> -->
-			                <li class="list-inline-item"><a href="#" class="btn btn-md" data-toggle="modal" data-target="#exampleModalCenter"><i class="flaticon-user"></i> <span class="dn-md">Connexion</span></a></li>
-			            </ul><!-- Button trigger modal -->
+			         		<!-- li class="list-inline-item"><a href="#" class="btn btn-md"><i class="flaticon-megaphone"></i><span class="dn-md">Become an Instructor</span></a></li --> 
+			                <!-- li class="list-inline-item"><a href="#" class="btn btn-md" data-toggle="modal" data-target="#exampleModalCenter"><i class="flaticon-user"></i> <span class="dn-md">Connexion</span></a></li -->
+			            </ul>
 					</div>
 				</div>
 			</div>
@@ -83,10 +81,18 @@
 											</h2>
 											<div class="content-vertical">
 												<ul id="vertical-menu" class="mega-vertical-menu nav navbar-nav">
-													<li><a href="https://yeccolapp.education/app/">Gestion scolaire</a></li>
-													<li><a href="#">Prix excellent</a></li>
-													<li><a href="https://yeccolapp.education/app/">Prévisions des matières uniformisées</a></li>
-													<li><a href="formulaireFOrmation">Formation et sensibilisation Continue (2030)</a></li>
+													<li>
+														<a href="http://yeccolapp.education/app/Ecole/">Gestion scolaire</a>
+													</li>
+													<li>
+														<a href="#">Prix excellent Élève 2022</a>
+													</li>
+													<li>
+														<a href="http://yeccolapp.education/app/">Prévisions des matières uniformisées</a>
+													</li>
+													<li>
+														<a href="#formulaireFormation">Formation et sensibilisation Continue (2030)</a>
+													</li>
 													<!-- 
 													<li><a href="#">Yeccolapp Award</a></li>
 													<li><a href="#">Cartographie des écoles</a></li>
@@ -257,7 +263,19 @@
 				</div><!-- /.mobile-menu -->
 				<nav id="menu" class="stylehome1">
 					<ul>
-						<li><span>Home</span>
+						<li>
+							<a href="http://yeccolapp.education/app/Ecole/">Gestion scolaire</a>
+						</li>
+						<li>
+							<a href="#">Prix excellent Élève 2022</a>
+						</li>
+						<li>
+							<a href="http://yeccolapp.education/app/">Prévisions des matières uniformisées</a>
+						</li>
+						<li>
+							<a href="#formulaireFormation">Formation et sensibilisation Continue (2030)</a>
+						</li>
+						<!-- li><span>Home</span>
 							<ul>
 								<li><a href="index.html">Home 1</a></li>
 								<li><a href="index2.html">Home 2</a></li>
@@ -279,8 +297,8 @@
 								</li>
 
 							</ul>
-						</li>
-						<li><span>Courses</span>
+						</li -->
+						<!-- li><span>Courses</span>
 							<ul>
 								<li><span>Courses List</span>
 									<ul>
@@ -303,14 +321,14 @@
 								<li><a href="page-instructors.html">Instructors</a></li>
 								<li><a href="page-instructors-single.html">Instructor Single</a></li>
 							</ul>
-						</li>
-						<li><span>Events</span>
+						</li -->
+						<!-- li><span>Events</span>
 							<ul>
 								<li><a href="page-event.html">Event List</a></li>
 								<li><a href="page-event-single.html">Event Single</a></li>
 							</ul>
-						</li>
-						<li><span>Pages</span>
+						</li -->
+						<!-- li><span>Pages</span>
 							<ul>
 								<li><span>Shop Pages</span>
 									<ul>
@@ -348,8 +366,8 @@
 								<li><a href="page-become-instructor.html">Become an Instructor</a></li>
 								<li><a href="page-ui-element.html">UI Elements</a></li>
 							</ul>
-						</li>
-						<li><span>Blog</span>
+						</li -->
+						<!-- li><span>Blog</span>
 							<ul>
 								<li><a href="page-blog-v1.html">Blog List 1</a></li>
 								<li><a href="page-blog-grid.html">Blog List 2</a></li>
@@ -359,10 +377,10 @@
 								<li><a href="page-blog-list4.html">New Blog List 6</a></li>
 								<li><a href="page-blog-single.html">Single Post</a></li>
 							</ul>
-						</li>
-						<li><a href="page-contact.html">Contact</a></li>
+						</li -->
+						<!-- li><a href="page-contact.html">Contact</a></li>
 						<li><a href="page-login.html"><span class="flaticon-user"></span> Login</a></li>
-						<li><a href="page-register.html"><span class="flaticon-edit"></span> Register</a></li>
+						<li><a href="page-register.html"><span class="flaticon-edit"></span> Register</a></li -->
 					</ul>
 				</nav>
 			</div>
@@ -492,23 +510,25 @@
 		<!-- Nos Objectif -->
 		<section>
 			<div class="row bg-successM">
+
 				<div class="col-sm-12 col-md-6 col-lg-5 col-xl-5">
 					<div class="blog_slider_home1 owl-carousel owl-theme owl-loaded">
 						<div class="owl-stage-outer">
 							<div class="owl-stage" style="transform: translate3d(-2820px, 0px, 0px); transition: all 2s ease 0s; width: 4935px;">
-								<div class="owl-item cloned" style="width: 690px; margin-right: 15px;">
+
+								<div class="owl-item clonedM" style="width: 690px; margin-right: 15px;">
 									<div class="item">
 										<div class="blog_post one">
 											<div class="thumb">
 												<!-- div class="post_title">
 													Events
 												</div -->
-												<img class="img-fluid w100" src="{{asset('images/blog/1a.jpg')}}" alt="1a.jpg">
+												<img class="img-fluid w100" src="{{asset('images/blog/1.png')}}" alt="1a.jpg">
 												<!-- a class="post_date" href="#">
 													<span>28 <br> March</span>
 												</a -->
 												<a class="post_date" href="#">
-													<span>Patrick</span>
+													<span>Elève</span>
 												</a>
 											</div>
 											<div class="details">
@@ -527,47 +547,194 @@
 													</ul>
 												</div -->
 												<!-- h4>Elegant Light Box Paper Cut Dioramas New Design Conference</h4 -->
-												<h4>Dev Chez Yeccolapp kinshasa</h4>										
+												<!-- h4>Dev Chez Yeccolapp kinshasa</h4 -->										
 											</div>
 										</div>
 									</div>
 								</div>	
-								<div class="owl-item cloned" style="width: 690px; margin-right: 15px;">
+								<div class="owl-item clonedM" style="width: 690px; margin-right: 15px;">
 									<div class="item">
 										<div class="blog_post one">
 											<div class="thumb">
-												<!-- div class="post_title">
-													Events
-												</div -->
-												<img class="img-fluid w100" src="{{asset('images/blog/1b.jpg')}}" alt="1a.jpg">
-												<!-- a class="post_date" href="#">
-													<span>28 <br> March</span>
-												</a -->
+												<img class="img-fluid w100" src="{{asset('images/blog/2.png')}}" alt="1a.jpg">
 												<a class="post_date" href="#">
-													<span>Patrick</span>
+													<span>Manager</span>
 												</a>
 											</div>
 											<div class="details">
-												<!-- div class="post_meta">
-													<ul>
-														<li class="list-inline-item">
-															<a href="#">
-																<i class="flaticon-calendar"></i> 8:00 am - 5:00 pm
-															</a>
-														</li>
-														<li class="list-inline-item">
-															<a href="#">
-																<i class="flaticon-placeholder"></i> Vancouver, Canada
-															</a>
-														</li>
-													</ul>
-												</div -->
-												<!-- h4>Elegant Light Box Paper Cut Dioramas New Design Conference</h4 -->
-												<h4>Dev Chez Yeccolapp kinshasa</h4>										
+												<!-- h4>Elegant Light Box Paper Cut Dioramas New Design Conference</h4 -->	
+												<h5>Chez Yeccolapp</h5>			
 											</div>
 										</div>
 									</div>
-								</div>						
+								</div>
+								<div class="owl-item clonedM" style="width: 690px; margin-right: 15px;">
+									<div class="item">
+										<div class="blog_post one">
+											<div class="thumb">
+												<img class="img-fluid w100" src="{{asset('images/blog/3.png')}}" alt="1a.jpg">
+												<a class="post_date" href="#">
+													<span>Elève</span>
+												</a>
+											</div>
+											<div class="details">
+												<!-- h4>Elegant Light Box Paper Cut Dioramas New Design Conference</h4 -->				
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="owl-item clonedM" style="width: 690px; margin-right: 15px;">
+									<div class="item">
+										<div class="blog_post one">
+											<div class="thumb">
+												<img class="img-fluid w100" src="{{asset('images/blog/4.png')}}" alt="1a.jpg">
+												<a class="post_date" href="#">
+													<span>Okapi</span>
+												</a>
+											</div>
+											<div class="details">
+												<!-- h4>Elegant Light Box Paper Cut Dioramas New Design Conference</h4 -->				
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="owl-item clonedM" style="width: 690px; margin-right: 15px;">
+									<div class="item">
+										<div class="blog_post one">
+											<div class="thumb">
+												<img class="img-fluid w100" src="{{asset('images/blog/5.png')}}" alt="1a.jpg">
+												<a class="post_date" href="#">
+													<span>Okapi</span>
+												</a>
+											</div>
+											<div class="details">
+												<!-- h4>Elegant Light Box Paper Cut Dioramas New Design Conference</h4 -->				
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="owl-item clonedM" style="width: 690px; margin-right: 15px;">
+									<div class="item">
+										<div class="blog_post one">
+											<div class="thumb">
+												<img class="img-fluid w100" src="{{asset('images/blog/6.png')}}" alt="1a.jpg">
+												<a class="post_date" href="#">
+													<span>Mwami Africa</span>
+												</a>
+											</div>
+											<div class="details">
+												<!-- h4>Elegant Light Box Paper Cut Dioramas New Design Conference</h4 -->				
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="owl-item clonedM" style="width: 690px; margin-right: 15px;">
+									<div class="item">
+										<div class="blog_post one">
+											<div class="thumb">
+												<img class="img-fluid w100" src="{{asset('images/blog/7.png')}}" alt="1a.jpg">
+												<a class="post_date" href="#">
+													<span>Mwami Africa</span>
+												</a>
+											</div>
+											<div class="details">
+												<!-- h4>Elegant Light Box Paper Cut Dioramas New Design Conference</h4 -->				
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="owl-item clonedM" style="width: 690px; margin-right: 15px;">
+									<div class="item">
+										<div class="blog_post one">
+											<div class="thumb">
+												<img class="img-fluid w100" src="{{asset('images/blog/8.png')}}" alt="1a.jpg">
+												<a class="post_date" href="#">
+													<span></span>
+												</a>
+											</div>
+											<div class="details">
+												<!-- h4>Elegant Light Box Paper Cut Dioramas New Design Conference</h4 -->				
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="owl-item clonedM" style="width: 690px; margin-right: 15px;">
+									<div class="item">
+										<div class="blog_post one">
+											<div class="thumb">
+												<img class="img-fluid w100" src="{{asset('images/blog/9.png')}}" alt="1a.jpg">
+												<a class="post_date" href="#">
+													<span></span>
+												</a>
+											</div>
+											<div class="details">
+												<!-- h4>Elegant Light Box Paper Cut Dioramas New Design Conference</h4 -->				
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="owl-item clonedM" style="width: 690px; margin-right: 15px;">
+									<div class="item">
+										<div class="blog_post one">
+											<div class="thumb">
+												<img class="img-fluid w100" src="{{asset('images/blog/10.png')}}" alt="1a.jpg">
+												<a class="post_date" href="#">
+													<span></span>
+												</a>
+											</div>
+											<div class="details">
+												<!-- h4>Elegant Light Box Paper Cut Dioramas New Design Conference</h4 -->				
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="owl-item clonedM" style="width: 690px; margin-right: 15px;">
+									<div class="item">
+										<div class="blog_post one">
+											<div class="thumb">
+												<img class="img-fluid w100" src="{{asset('images/blog/11.png')}}" alt="1a.jpg">
+												<a class="post_date" href="#">
+													<span></span>
+												</a>
+											</div>
+											<div class="details">
+												<!-- h4>Elegant Light Box Paper Cut Dioramas New Design Conference</h4 -->				
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="owl-item clonedM" style="width: 690px; margin-right: 15px;">
+									<div class="item">
+										<div class="blog_post one">
+											<div class="thumb">
+												<img class="img-fluid w100" src="{{asset('images/blog/12.png')}}" alt="1a.jpg">
+												<a class="post_date" href="#">
+													<span>ODD</span>
+												</a>
+											</div>
+											<div class="details">
+												<!-- h4>Elegant Light Box Paper Cut Dioramas New Design Conference</h4 -->				
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="owl-item clonedM" style="width: 690px; margin-right: 15px;">
+									<div class="item">
+										<div class="blog_post one">
+											<div class="thumb">
+												<img class="img-fluid w100" src="{{asset('images/blog/13.png')}}" alt="1a.jpg">
+												<a class="post_date" href="#">
+													<span></span>
+												</a>
+											</div>
+											<div class="details">
+												<!-- h4>Elegant Light Box Paper Cut Dioramas New Design Conference</h4 -->				
+											</div>
+										</div>
+									</div>
+								</div>
+
+
 							</div>
 						</div>
 						<!-- div class="owl-controls">
@@ -655,55 +822,70 @@
 							<!-- iframe src="https://docs.google.com/forms/d/e/1FAIpQLScETF-vHZGF0mYv9tqGvsGJhfRUyGRBmS2lTrlMjFC1adW9Lg/viewform?embedded=true" width="640" height="405" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe -->
 							<!-- a class="btn btn-transparent divider-btn" href="#">Get Started Now</a -->
 							<!-- div class="row bg-dangerM" -->
-								<form class="row" action="{{route('SendFormationMail')}}" method="POST">
+								<form id="formulaireFormation" class="row" action="{{route('SendFormationMail')}}" method="POST">
 									@csrf
 									<div class="col-lg-12">
-										<h4 style="color: #fff; font-weight: bold;">Formulaire d'enregistrement pour la formation</h4>
+										<h4 style="color: #fff; font-weight: bold;">Inscription en ligne au programme de formation</h4>
 									</div>
-									<div class="col-sm-12 bg-primary">					
-											@if(Session::has('SendMail'))
+									<div class="col-sm-12 bg-primaryM">					
+										@if(Session::has('SendMail'))
 											<span class="bg-primaryM" style="color: #fff">{{Session::get('SendMail')}}</span>
-											@endif										
+										@endif										
 									</div>
 									<!-- Step 1 -->
 									<div class="col-lg-6 my_profile_setting_inputM form-group">
-										<label for="formGroupExampleInput1" class="labelColor">Nom</label>
-										<input type="text" name="nom" class="form-control colorFont" id="formGroupExampleInput1" required>
+										<label for="nom" class="labelColor">Nom</label>
+										<input type="text" name="nom" class="form-control colorFont" id="nom" autocomplete="false" />
+										<!-- ces petit span permet d'afficher le erreur venant du backend -->
+										<span class="text-danger error-text nom_error"></span>
 									</div>
-									<div class="col-lg-6 my_profile_setting_inputM  form-group">
-										<label for="formGroupExampleInput2" class="labelColor">Postnom</label>
-										<input type="text" name="postnom" class="form-control colorFont" id="formGroupExampleInput2">
+									<div class="col-lg-6 form-group">
+										<label for="postnom" class="labelColor">Postnom</label>
+										<input type="text" name="postnom" class="form-control colorFont" id="postnom" />
+										<span class="text-danger error-text postnom_error"></span>
+									</div>
+									<div class="col-lg-6 form-group">
+										<label for="prenom" class="labelColor">Prenom</label>
+										<input type="text" name="prenom" class="form-control colorFont" id="prenom" />
+										<span class="text-danger error-text prenom_error"></span>
 									</div>
 									<!-- Step 2 -->
-									<div class="col-lg-6 my_profile_setting_inputM form-group">
-										<label for="formGroupExampleInput2" class="labelColor">Ecole de l'enfant ou Institution</label>
-										<input type="text" name="nomEcole" class="form-control colorFont" id="formGroupExampleInput2">
+									<div class="col-lg-6 form-group">
+										<label for="nomEcole" class="labelColor">Ecole de l'enfant ou Institution</label>
+										<input type="text" name="nomEcole" class="form-control colorFont" id="nomEcole" />
+										<span class="text-danger error-text nomEcole_error"></span>
 									</div>
-									<div class="col-lg-6 my_profile_setting_inputM form-group">
-										<label for="formGroupExampleInput2" class="labelColor">Telephone1 et Telephone2</label>
-										<input type="text" name="telephone" class="form-control colorFont" id="formGroupExampleInput2" placeholder="telephone1/Telephone2">
+									<div class="col-lg-6 form-group">
+										<label for="telephone" class="labelColor">Telephone1 et Telephone2</label>
+										<input type="text" name="telephone" class="form-control colorFont" id="telephone" placeholder="telephone1/Telephone2" />
+										<span class="text-danger error-text telephone_error"></span>
 									</div>
 									<!-- Step 3 -->
-									<div class="col-lg-6 my_profile_setting_inputM form-group">
-										<label for="formGroupExampleInput2" class="labelColor">Email</label>
-										<input type="text" name="email" class="form-control colorFont" id="formGroupExampleInput2" placeholder="facultatif">
+									<div class="col-lg-6 form-group">
+										<label for="email" class="labelColor">Email</label>
+										<input type="text" name="email" class="form-control colorFont" id="email" placeholder="facultatif" />
+										<span class="text-danger error-text email_error"></span>
 									</div>
-									<div class="col-lg-6 my_profile_setting_inputM form-group">
-										<label for="formGroupExampleInput2" class="labelColor">Commune residentielle</label>
-										<input type="text" name="commune" class="form-control colorFont" id="formGroupExampleInput2" placeholder="commune">
+									<div class="col-lg-6 form-group">
+										<label for="commune" class="labelColor">Commune residentielle</label>
+										<input type="text" name="commune" class="form-control colorFont" id="commune" placeholder="commune" />
+										<span class="text-danger error-text commune_error"></span>
 									</div>
 									<!-- Step 4 -->
-									<div class="col-lg-6 my_profile_setting_inputM form-group">
-										<label for="formGroupExampleInput2" class="labelColor">Districk</label>
-										<input type="text" name="districk" class="form-control colorFont" id="formGroupExampleInput2" placeholder="">
+									<div class="col-lg-6 form-group">
+										<label for="district" class="labelColor">District</label>
+										<input type="text" name="district" class="form-control colorFont" id="district" placeholder="district" />
+										<span class="text-danger error-text district_error"></span>
 									</div>
-									<div class="col-lg-3 my_profile_setting_inputM form-group">
-										<label for="formGroupExampleInput2" class="labelColor">Ville</label>
-										<input type="text" name="ville" class="form-control colorFont" id="formGroupExampleInput2" placeholder="ville">
+									<div class="col-lg-3 form-group">
+										<label for="ville" class="labelColor">Ville</label>
+										<input type="text" name="ville" class="form-control colorFont" id="ville" placeholder="ville" />
+										<span class="text-danger error-text ville_error"></span>
 									</div>
-									<div class="col-lg-3 my_profile_setting_inputM form-group">
-										<label for="formGroupExampleInput2" class="labelColor">Province</label>
-										<input type="text" name="province" class="form-control colorFont" id="formGroupExampleInput2" placeholder="province">
+									<div class="col-lg-3 form-group">
+										<label for="province" class="labelColor">Province</label>
+										<input type="text" name="province" class="form-control colorFont" id="province" placeholder="province" />
+										<span class="text-danger error-text province_error"></span>
 									</div>
 									<div class="col-sm-12 bg-primary">					
 											@if(Session::has('SendMail'))
@@ -715,7 +897,7 @@
 										</button -->
 										<!-- button type="submit" class="my_setting_savechange_btn btn btn-thm">Save <span class="flaticon-right-arrow-1 ml15"></span>
 										</button -->
-										<button type="submit" class="my_setting_savechange_btn btn btn-thm">Enregistrer<span class="flaticon-right-arrow-1 ml15"></span>
+										<button type="submit" id="BtnSubmitFormation" class="my_setting_savechange_btn btn btn-thm">Enregistrer<span class="flaticon-right-arrow-1 ml15"></span>
 										</button>
 									</div>
 								</form>
@@ -745,102 +927,49 @@
 						</div>
 					</div>
 				</div>
-				<div class="row owl-carouselMM owl-themeM bg-dangerM">
+				<div class="row blog_slider_home150 owl-carousel owl-theme owl-loaded">
 					<!-- div class="col-lg-3 myCard bg-dangerM">
 						<h1>My Card</h1>
 					</div -->
-					<div class="col-sm-12 col-md-2 col-lg-2 bg-dangerM myCard itemM">
+					<div class="col-sm-12 col-md-12 col-lg-12 bg-dangerM myCard item">
 						<div class="text-center">
 							<img class="img-fluid" src="images/partners/1_ITM.png" alt="1.png">
 						</div>						
 					</div>
-					<div class="col-sm-12 col-md-2 col-lg-2 bg-successM myCard itemM">
+					<div class="col-sm-12 col-md-12 col-lg-12 bg-successM myCard item">
 						<div class="text-center">
 							<img class="img-fluid" src="images/partners/2_Untitled-1.png" alt="1.png">
 						</div>						
 					</div>
-					<div class="col-sm-12 col-md-2 col-lg-2 bg-primaryM myCard itemM">
+					<div class="col-sm-12 col-md-12 col-lg-12 bg-primaryM myCard item">
 						<div class="text-center">
 							<img class="img-fluid" src="images/partners/3_Untitled-3.png" alt="1.png">
 						</div>						
 					</div>
-					<div class="col-sm-12 col-md-2 col-lg-2 bg-dangerM myCard itemM">
+					<div class="col-sm-12 col-md-12 col-lg-12 bg-dangerM myCard item">
 						<div class="text-center">
 							<img class="img-fluid" src="images/partners/4_Untitled-3.png" alt="1.png">
 						</div>						
 					</div>
-					<div class="col-sm-12 col-md-2 col-lg-2 bg-dangerM myCard itemM">
+					<div class="col-sm-12 col-md-12 col-lg-12 bg-dangerM myCard item">
 						<div class="text-center">
 							<img class="img-fluid" src="images/partners/5_Untitled-3.png" alt="1.png">
 						</div>						
 					</div>
-					<div class="col-sm-12 col-md-2 col-lg-2 bg-dangerM myCard itemM">
+					<div class="col-sm-12 col-md-12 col-lg-12 bg-dangerM myCard item">
 						<div class="text-center">
 							<img class="img-fluid" src="images/partners/6_Untitled-3.png" alt="1.png">
 						</div>						
 					</div>
-					<!-- div class="col-sm-12 col-md-2 col-lg-2 bg-dangerM myCard item">
+					<div class="col-sm-12 col-md-12 col-lg-12 bg-dangerM myCard item">
 						<div class="text-center">
 							<img class="img-fluid" src="images/partners/7.png" alt="1.png">
 						</div>						
-					</div -->
+					</div>
 				</div>
 			</div>
 		</section>
 		<!-- End Our PartnersOne -->
-
-		<!-- Our Partners -->
-		<!-- section id="our-partners" class="our-partners bg-dangerM">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6 offset-lg-3">
-						<div class="main-title text-center">
-							<h3 class="mt0">Nos partenaires </h3>
-							<h3 style="font-style: italic;">Ils nous font confiance</h3>
-						</div>
-					</div>
-				</div>
-				<div class="row owl-carousel owl-theme">
-					<div class="col-sm-12 col-md-4 col-lg-4 item">
-						<div class="our_partner">
-							<img class="img-fluid" src="images/partners/1.png" alt="1.png">
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-4 item">
-						<div class="our_partner">
-							<img class="img-fluid" src="images/partners/2.png" alt="2.png">
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-4 item">
-						<div class="our_partner">
-							<img class="img-fluid" src="images/partners/3.png" alt="3.png">
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-4 item">
-						<div class="our_partner">
-							<img class="img-fluid" src="images/partners/4.png" alt="4.png">
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-4 item">
-						<div class="our_partner">
-							<img class="img-fluid" src="images/partners/5.png" alt="5.png">
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-4 item">
-						<div class="our_partner">
-							<img class="img-fluid" src="images/partners/6.png" alt="6.png">
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-4 item">
-						<div class="our_partner">
-							<img class="img-fluid" src="images/partners/7.JPG" style="height: auto; width: auto;" alt="7.JPG">
-						</div>
-					</div>
-				</div>
-			</div>
-		</section -->
-		<!-- End Our Partners -->
-
 
 		<!-- Our Footer -->
 		<section class="footer_one home3">
@@ -888,7 +1017,7 @@
 					</div -->
 					<div class="col-sm-6 col-md-6 col-md-3 col-lg-3">
 						<div class="footer_apps_widget home3">
-							<h4>MOBILE</h4>
+							<h4>MOBILE disponible en Mai 2022</h4>
 							<div class="app_grid">
 								<button class="apple_btn btn-dark">
 									<span class="icon">
@@ -910,9 +1039,7 @@
 				</div>
 			</div>
 		</section>
-		<!-- End Our Footer -->
-
-		
+		<!-- End Our Footer -->	
 
 		<!-- Our Footer Middle Area -->
 		<section class="footer_middle_area home3 p0">
@@ -988,34 +1115,16 @@
 	<script type="text/javascript" src="{{asset('styleJs/slider.js')}}"></script>
 	<script type="text/javascript" src="{{asset('styleJs/timepicker.js')}}"></script>
 	<!-- Custom script for all pages --> 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+
+	<script src="{{asset('styleJs/mainAjax.js')}}" type="text/javascript"></script>
+	<script src="{{asset('OwlCarousel2-2.3.4/dist/owl.carousel.js')}}" type="text/javascript"></script>
 
 	<!-- le script ecrit a la mais  -->
 	<script type="text/javascript" src="{{asset('styleJs/script.js')}}"></script>
 	
 	<script>
-		$('.owl-carouselM').owlCarousel({
-		    loop:true,
-		    /*margin:20,*/
-		    /*margin:0,*/
-		    nav:false,
-		    autoplay: true,
-		    autoplayTimeout: 2000,
-		    stagePadding: 150,
-		    dots:false,
-		    responsive: false
-		   /* responsive:{
-		        0:{
-		            items:1
-		        },
-		        600:{
-		            items:3
-		        },
-		        1000:{
-		            items:4
-		        }
-		    }*/
-		})
+		
 	</script>	
 </body>
 </html>

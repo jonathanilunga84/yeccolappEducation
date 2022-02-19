@@ -476,6 +476,48 @@
         })
     }
 
+    /*  For-Grid-Owl-carousel  */
+    if($('.blog_slider_home150').length){
+        $('.blog_slider_home150').owlCarousel({
+            loop:true,
+            margin:15,
+            dots: false,
+            nav:true,
+            rtl:false,
+            autoplayHoverPause:false,
+            autoplay: true,
+            smartSpeed: 2000,
+            singleItem: true,
+            navText: [
+              '<i class="flaticon-left-arrow"></i>',
+              '<i class="flaticon-right-arrow-1"></i>'
+            ],
+            responsive: {
+                320:{
+                    items: 2,
+                    center: false
+                },
+                480:{
+                    items: 2,
+                    center: true
+                },
+                600: {
+                    items: 3,
+                    center: true
+                },
+                768: {
+                    items: 4
+                },
+                992: {
+                    items: 4
+                },
+                1200: {
+                    items: 6
+                }
+            }
+        })
+    }
+
     /*  Popular-Course-Slider-Owl-carousel  */
     if($('.popular_course_slider').length){
         $('.popular_course_slider').owlCarousel({
@@ -1111,6 +1153,8 @@
             }
         })
     }
+
+
 
     /* ----- Scroll To top ----- */
     function scrollToTop() {
