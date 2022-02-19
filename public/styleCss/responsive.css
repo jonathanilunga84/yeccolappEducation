@@ -981,4 +981,6 @@
 	.banner-style-one.home9 .owl-dots .owl-dot{margin-right: 0;width: 22%;}
 	.banner-style-one.home9 .owl-dots .owl-dot.active span,
 	.banner-style-one.home9 .owl-dots .owl-dot span{max-width: 70px;}
+
+	.blog_slider_home1 .owl-item{}
 }

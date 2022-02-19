@@ -82,13 +82,13 @@
 											<div class="content-vertical">
 												<ul id="vertical-menu" class="mega-vertical-menu nav navbar-nav">
 													<li>
-														<a href="http://yeccolapp.education/app/Ecole/">Gestion scolaire</a>
+														<a href="http://yeccolapp.education/app/Ecole/" target="_blank">Gestion scolaire</a>
 													</li>
 													<li>
 														<a href="#">Prix excellent Élève 2022</a>
 													</li>
 													<li>
-														<a href="http://yeccolapp.education/app/">Prévisions des matières uniformisées</a>
+														<a href="http://yeccolapp.education/app/" target="_blank">Prévisions des matières uniformisées</a>
 													</li>
 													<li>
 														<a href="#formulaireFormation">Formation et sensibilisation Continue (2030)</a>
@@ -264,13 +264,13 @@
 				<nav id="menu" class="stylehome1">
 					<ul>
 						<li>
-							<a href="http://yeccolapp.education/app/Ecole/">Gestion scolaire</a>
+							<a href="http://yeccolapp.education/app/Ecole/" target="_blank">Gestion scolaire</a>
 						</li>
 						<li>
 							<a href="#">Prix excellent Élève 2022</a>
 						</li>
 						<li>
-							<a href="http://yeccolapp.education/app/">Prévisions des matières uniformisées</a>
+							<a href="http://yeccolapp.education/app/" target="_blank">Prévisions des matières uniformisées</a>
 						</li>
 						<li>
 							<a href="#formulaireFormation">Formation et sensibilisation Continue (2030)</a>
@@ -527,9 +527,9 @@
 												<!-- a class="post_date" href="#">
 													<span>28 <br> March</span>
 												</a -->
-												<a class="post_date" href="#">
+												<!-- a class="post_date" href="#">
 													<span>Elève</span>
-												</a>
+												</a -->
 											</div>
 											<div class="details">
 												<!-- div class="post_meta">
@@ -557,13 +557,12 @@
 										<div class="blog_post one">
 											<div class="thumb">
 												<img class="img-fluid w100" src="{{asset('images/blog/2.png')}}" alt="1a.jpg">
-												<a class="post_date" href="#">
+												<!-- a class="post_date" href="#">
 													<span>Manager</span>
-												</a>
+												</a -->
 											</div>
 											<div class="details">
-												<!-- h4>Elegant Light Box Paper Cut Dioramas New Design Conference</h4 -->	
-												<h5>Chez Yeccolapp</h5>			
+												<!-- h4>Elegant Light Box Paper Cut Dioramas New Design Conference</h4 -->			
 											</div>
 										</div>
 									</div>
@@ -573,9 +572,6 @@
 										<div class="blog_post one">
 											<div class="thumb">
 												<img class="img-fluid w100" src="{{asset('images/blog/3.png')}}" alt="1a.jpg">
-												<a class="post_date" href="#">
-													<span>Elève</span>
-												</a>
 											</div>
 											<div class="details">
 												<!-- h4>Elegant Light Box Paper Cut Dioramas New Design Conference</h4 -->				
@@ -648,9 +644,6 @@
 										<div class="blog_post one">
 											<div class="thumb">
 												<img class="img-fluid w100" src="{{asset('images/blog/8.png')}}" alt="1a.jpg">
-												<a class="post_date" href="#">
-													<span></span>
-												</a>
 											</div>
 											<div class="details">
 												<!-- h4>Elegant Light Box Paper Cut Dioramas New Design Conference</h4 -->				
@@ -663,9 +656,6 @@
 										<div class="blog_post one">
 											<div class="thumb">
 												<img class="img-fluid w100" src="{{asset('images/blog/9.png')}}" alt="1a.jpg">
-												<a class="post_date" href="#">
-													<span></span>
-												</a>
 											</div>
 											<div class="details">
 												<!-- h4>Elegant Light Box Paper Cut Dioramas New Design Conference</h4 -->				
@@ -678,9 +668,6 @@
 										<div class="blog_post one">
 											<div class="thumb">
 												<img class="img-fluid w100" src="{{asset('images/blog/10.png')}}" alt="1a.jpg">
-												<a class="post_date" href="#">
-													<span></span>
-												</a>
 											</div>
 											<div class="details">
 												<!-- h4>Elegant Light Box Paper Cut Dioramas New Design Conference</h4 -->				
@@ -693,9 +680,6 @@
 										<div class="blog_post one">
 											<div class="thumb">
 												<img class="img-fluid w100" src="{{asset('images/blog/11.png')}}" alt="1a.jpg">
-												<a class="post_date" href="#">
-													<span></span>
-												</a>
 											</div>
 											<div class="details">
 												<!-- h4>Elegant Light Box Paper Cut Dioramas New Design Conference</h4 -->				
@@ -723,9 +707,6 @@
 										<div class="blog_post one">
 											<div class="thumb">
 												<img class="img-fluid w100" src="{{asset('images/blog/13.png')}}" alt="1a.jpg">
-												<a class="post_date" href="#">
-													<span></span>
-												</a>
 											</div>
 											<div class="details">
 												<!-- h4>Elegant Light Box Paper Cut Dioramas New Design Conference</h4 -->				
@@ -811,6 +792,16 @@
 								</a>
 							</p -->
 							<!-- a class="btn btn-transparent divider-btn" href="#">Get Started Now</a -->
+							<div class="blog_post_home6 style2 video mb30">
+						<div class="bg_img_video_widget h650 thumb">
+							<div class="bg-video" style="background-image: url('{{asset('images/gallery/9.jpg')}}');">
+								<div class="bt-play text-center"><span class="flaticon-play-button"></span>Preview Video</div>
+							</div>
+							<div class="video-container">
+								<iframe class="w100" height="650px" src="../../embed/oqNZOOWF8qM.html?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+							</div>
+						</div>
+					</div>
 
 						</div>
 					</div>
@@ -931,37 +922,37 @@
 					<!-- div class="col-lg-3 myCard bg-dangerM">
 						<h1>My Card</h1>
 					</div -->
-					<div class="col-sm-12 col-md-12 col-lg-12 bg-dangerM myCard item">
+					<div class="col-sm-6 col-md-12 col-lg-12 bg-dangerM myCard item">
 						<div class="text-center">
 							<img class="img-fluid" src="images/partners/1_ITM.png" alt="1.png">
 						</div>						
 					</div>
-					<div class="col-sm-12 col-md-12 col-lg-12 bg-successM myCard item">
+					<div class="col-sm-6 col-md-12 col-lg-12 bg-successM myCard item">
 						<div class="text-center">
 							<img class="img-fluid" src="images/partners/2_Untitled-1.png" alt="1.png">
 						</div>						
 					</div>
-					<div class="col-sm-12 col-md-12 col-lg-12 bg-primaryM myCard item">
+					<div class="col-sm-6 col-md-12 col-lg-12 bg-primaryM myCard item">
 						<div class="text-center">
 							<img class="img-fluid" src="images/partners/3_Untitled-3.png" alt="1.png">
 						</div>						
 					</div>
-					<div class="col-sm-12 col-md-12 col-lg-12 bg-dangerM myCard item">
+					<div class="col-sm-6 col-md-12 col-lg-12 bg-dangerM myCard item">
 						<div class="text-center">
 							<img class="img-fluid" src="images/partners/4_Untitled-3.png" alt="1.png">
 						</div>						
 					</div>
-					<div class="col-sm-12 col-md-12 col-lg-12 bg-dangerM myCard item">
+					<div class="col-sm-6 col-md-12 col-lg-12 bg-dangerM myCard item">
 						<div class="text-center">
 							<img class="img-fluid" src="images/partners/5_Untitled-3.png" alt="1.png">
 						</div>						
 					</div>
-					<div class="col-sm-12 col-md-12 col-lg-12 bg-dangerM myCard item">
+					<div class="col-sm-6 col-md-12 col-lg-12 bg-dangerM myCard item">
 						<div class="text-center">
 							<img class="img-fluid" src="images/partners/6_Untitled-3.png" alt="1.png">
 						</div>						
 					</div>
-					<div class="col-sm-12 col-md-12 col-lg-12 bg-dangerM myCard item">
+					<div class="col-sm-6 col-md-12 col-lg-12 bg-dangerM myCard item">
 						<div class="text-center">
 							<img class="img-fluid" src="images/partners/7.png" alt="1.png">
 						</div>						

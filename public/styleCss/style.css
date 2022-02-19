@@ -6285,7 +6285,7 @@ header.header-nav.menu_style_home_five.home11.style2.navbar-scrolltofixed.strick
   z-index: 9;
 }
 .blog_post.one .thumb:before{
-  background-color: rgba(25, 38, 117, .7);
+  /*background-color: rgba(25, 38, 117, .7);*/
   bottom: 0;
   content: "";
   position: absolute;
@@ -6294,7 +6294,7 @@ header.header-nav.menu_style_home_five.home11.style2.navbar-scrolltofixed.strick
   left: 0;
 }
 .blog_post .thumb:before{
-  background-color: rgba(0,0,0, .6);
+  /*background-color: rgba(0,0,0, .6);*/
   bottom: 0;
   content: "";
   position: absolute;

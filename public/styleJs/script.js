@@ -438,7 +438,7 @@
     if($('.blog_slider_home1').length){
         $('.blog_slider_home1').owlCarousel({
             loop:true,
-            margin:15,
+            margin: 15,
             dots: false,
             nav:true,
             rtl:false,
@@ -447,17 +447,17 @@
             smartSpeed: 2000,
             singleItem: true,
             navText: [
-              '<i class="flaticon-left-arrow"></i>',
-              '<i class="flaticon-right-arrow-1"></i>'
+              '<i class="flaticon-left-arrow text-primary"></i>',
+              '<i class="flaticon-right-arrow-1 text-primary"></i>'
             ],
             responsive: {
                 320:{
                     items: 1,
-                    center: false
+                    center: true
                 },
                 480:{
                     items: 1,
-                    center: false
+                    center: true
                 },
                 600: {
                     items: 1,
@@ -487,7 +487,7 @@
             autoplayHoverPause:false,
             autoplay: true,
             smartSpeed: 2000,
-            singleItem: true,
+            
             navText: [
               '<i class="flaticon-left-arrow"></i>',
               '<i class="flaticon-right-arrow-1"></i>'
@@ -495,7 +495,7 @@
             responsive: {
                 320:{
                     items: 2,
-                    center: false
+                    center: true
                 },
                 480:{
                     items: 2,
