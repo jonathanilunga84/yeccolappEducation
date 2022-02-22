@@ -476,11 +476,10 @@
         })
     }
 
-    /*  For-Grid-Owl-carousel  */
-    if($('.blog_slider_home150').length){
-        $('.blog_slider_home150').owlCarousel({
+    /*  One-Grid-Owl-carousel  */
+    if($('.objectif_slider_home150').length){
+        $('.objectif_slider_home150').owlCarousel({
             loop:true,
-            margin:15,
             dots: false,
             nav:true,
             rtl:false,
@@ -494,25 +493,70 @@
             ],
             responsive: {
                 320:{
+                    items: 1,
+                    center: true
+                },
+                480:{
+                    items: 1,
+                    center: true
+                },
+                600: {
+                    items: 1,
+                    center: true
+                },
+                768: {
+                    items: 1
+                },
+                992: {
+                    items: 1
+                },
+                1200: {
+                    items: 1
+                }
+            }
+        })
+    }
+
+    /*  One-Grid-Owl-carousel  */
+    if($('.partainer_slider_home150').length){
+        $('.partainer_slider_home150').owlCarousel({
+            loop:true,
+            margin: 15,
+            dots: false,
+            nav:true,
+            rtl:false,
+            autoplayHoverPause:false,
+            autoplay: true,
+            smartSpeed: 2000,
+            singleItem: true,
+            navText: [
+              '<i class="flaticon-left-arrow text-primary"></i>',
+              '<i class="flaticon-right-arrow-1 text-primary"></i>'
+            ],
+            responsive: {
+                320:{
                     items: 2,
                     center: true
                 },
                 480:{
-                    items: 2,
-                    center: true
-                },
-                600: {
                     items: 3,
                     center: true
                 },
+                600: {
+                    items: 2,
+                    center: true
+                },
                 768: {
-                    items: 4
+                    center: true,
+                    items: 3
                 },
                 992: {
-                    items: 4
+                    items: 5,
+                    center: true
                 },
                 1200: {
-                    items: 6
+                    items: 6,
+                    center: true
                 }
             }
         })

@@ -13896,3 +13896,8 @@ header.header-nav.menu_style_home_one.new_style .sign_up_btn li.list_s{
 #formulaireFormation .error{
   color: red;
 }
+
+.mycarousel{
+  /*border: 2px solid red;*/
+  margin-left: 10px;
+}

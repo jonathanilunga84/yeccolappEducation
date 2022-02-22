@@ -2,29 +2,14 @@
 	//document.getElementById('BtnSubmitFormation').innerHTML = "....";
 	$("#formulaireFormation").validate({
 		rules : {
-	    	nom : {
+	    	identite : {
 	        	required : true,
 	        	minlength : 2,
-	        	maxlength: 50
-	        },
-	        postnom : {
-	        	required : true,
-	        	minlength : 2,
-	        	maxlength: 50
-	        },
-	        prenom : {
-	        	required : true,
-	        	minlength : 2,
-	        	maxlength: 50
-	        },
-	        nomEcole: {
-	        	required : true,
-	        	minlength : 2,
-	        	maxlength: 50
+	        	maxlength: 100
 	        },
 	        telephone: {
 	        	required : true,
-	        	minlength : 2,
+	        	minlength : 9,
 	        	maxlength: 50
 	        },
 	        email : {
@@ -38,40 +23,28 @@
 	        	maxlength: 50
 	        },
 	        district: {
+	        	required : true,
 	        	minlength : 2,
 	        	maxlength: 50
 	        },
 	        ville : {
 	          required : true,
-	          minlength : 2,
 	          maxlength : 50
 	        },
 	        province : {
 	          required : true,
-	          minlength: 2,
+	          maxlength: 50
+	        },
+	        categorie : {
+	          required : true,
 	          maxlength: 50
 	        }
 	    },       
 	    messages : {
-	    	nom : {
+	    	identite : {
 	        	required : 'Le Nom est obligatoire',
 	        	minlength : 'Le Nom doit avoir au minimun 2 caractère',
 	        	maxlength : 'Le Nom doit avoir au maximun 50 caractère',
-	        },
-	        postnom : {
-	        	required : 'Le Postnom est obligatoire',
-	        	maxlength : 'Le Postnom doit avoir au maximun 50 caractère',
-	        	minlength : 'Le Postnom doit avoir au minimun 2 caractère'
-	        },
-	        prenom : {
-	        	required : 'Le Prenom est obligatoire',
-	        	maxlength : 'Le Prenom doit avoir au maximun 50 caractère',
-	        	minlength : 'Le Prenom doit avoir au minimun 2 caractère'
-	        },
-	        nomEcole : {
-	        	required : "Le Nom de l'ecole est obligatoire",
-	        	maxlength : "Le Nom de l'ecole doit avoir au maximun 50 caractère",
-	        	minlength : "Le Nom de l'ecole doit avoir au minimun 2 caractère"
 	        },
 	        telephone : {
 	        	required : "Le telephone est obligatoire",
@@ -95,23 +68,23 @@
 	        ville : {
 	        	required : "La Ville est obligatoire",
 	        	maxlength : "La Ville doit avoir au maximun 50 caractère",
-	        	minlength : "La Ville doit avoir au minimun 2 caractère"
 	        },
 	        province : {
 	        	required : "La Province est obligatoire",
 	        	maxlength : "La Province doit avoir au maximun 50 caractère",
-	        	minlength : "La Province doit avoir au minimun 2 caractère"
-	        }
+	        },
+	        categorie : {
+	        	required : "Le categorie est obligatoire",
+	        	maxlength : "Le categorie doit avoir au maximun 50 caractère",
+	        } 
 	    },
 	    submitHandler: function(form){
 		  // Pour le formulaire de la formation
 		    //e.preventDefault();
-		    let nom = $('#nom').val();
-		    let postnom = $('#postnom').val();
-		    let prenom = $('#prenom').val();
-		    let nomEcole = $('#nomEcole').val();
+		    let identite = $('#identite').val();
 		    let telephone = $('#telephone').val();
 		    let email = $('#email').val();
+		    let categorie = $('#categorie').val();
 			let commune = $('#commune').val();
 			let district = $('#district').val();
 		    let ville = $('#ville').val();
@@ -131,11 +104,9 @@
 		    	method:myMethode,
 		    	data:{
 		    		_token,
-		    		nom,
-		    		postnom,
-		    		prenom,
-		    		nomEcole,
+		    		identite,		    		
 		    		telephone,
+		    		categorie,
 			        email,
 			        commune,
 			        district,
@@ -163,11 +134,14 @@
 			          $('#BtnSubmitFormation').css('backgroundColor','');
 			        }else{
 			        	if (data.status == 1) {
-			        		//$('#BtnSubmitFormation')[0].reset();
+			        		$("#categorie").val('');
+			        		$("#province").val('');
+			        		$("#ville").val('');
 			        		//document.getElementById('BtnSubmitFormation').reset();
 			        		$('input[type=text]').val('');
+			        		$('input[type=email]').val('');
 					        console.log(data.messageSucces);
-					        alert("l'enregistrement effectuer avec success");
+					        alert("L'inscription au programme de formation effectué avec success");
 					        $('#BtnSubmitFormation').html('Enregistrement effectué');
 					        $('#BtnSubmitFormation').attr('disabled',false);
 					    	$('#BtnSubmitFormation').css('backgroundColor','');

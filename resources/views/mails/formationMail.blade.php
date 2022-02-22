@@ -7,14 +7,13 @@
 </head>
 <body>
 	<h1>Formation Yeccollap</h1>
-	<p>Nom: {{$Data['nom']}}</p>
-	<p>Postnom: {{$Data['postnom']}}</p>
-	<p>Nom Ecole: {{$Data['nom_ecole']}}</p>
+	<p>Identité: {{$Data['identite']}}</p>
 	<p>Telephone: {{$Data['telephone']}}</p>
-	<p>Mail: {{$Data['mail']}}</p>
+	<p>Mail: {{$Data['email']}}</p>
 	<p>Commune: {{$Data['commune']}}</p>
-	<p>Disctrick: {{$Data['districk']}}</p>
+	<p>Disctrick: {{$Data['district']}}</p>
 	<p>Ville: {{$Data['ville']}}</p>
 	<p>Province: {{$Data['province']}}</p>
+	<p>Categorie: {{$Data['categorie']}}</p>
 </body>
 </html>
