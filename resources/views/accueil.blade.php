@@ -5,8 +5,8 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="keywords" content="academy, college, coursera, courses, education, elearning, kindergarten, lms, lynda, online course, online education, school, training, udemy, university">
-		<meta name="description" content="Edumy - LMS Online Education Course & School HTML Template">
+		<meta name="keywords" content="yeccolapp, academy, college, coursera, courses, education, elearning, lms, online course, online education, school, training, university">
+		<meta name="description" content="Yeccolapp, Contenus éducatifs de qualité et uniformisés pour tout enfant, étudiant, enseignants et parents d'élèves Congolais et Africain.(ODD-4)">
 		<meta name="CreativeLayers" content="ATFN">
 		<!-- css file -->
 		<link rel="stylesheet" href="{{asset('styleCss/bootstrap.min.css')}}">
@@ -14,7 +14,7 @@
 		<!-- Responsive stylesheet -->
 		<link rel="stylesheet" href="{{asset('styleCss/responsive.css')}}">
 		<!-- Title -->
-		<title>Yeccolab</title>
+		<title>Yeccolapp</title>
 		<!-- Favicon -->
 		<link href="{{asset('images/favicon.ico')}}" sizes="128x128" rel="shortcut icon" type="image/x-icon" />
 		<link href="{{asset('images/favicon.ico')}}" sizes="128x128" rel="shortcut icon" />
@@ -86,13 +86,13 @@
 											<div class="content-vertical">
 												<ul id="vertical-menu" class="mega-vertical-menu nav navbar-nav">
 													<li>
-														<a href="http://yeccolapp.education/app/Ecole/" target="_blank">Gestion scolaire</a>
+														<a href="http://yeccolapp.education/apps/Ecole/" target="_blank">Gestion scolaire</a>
 													</li>
 													<li>
 														<a href="#">Prix excellent Élève 2022</a>
 													</li>
 													<li>
-														<a href="http://yeccolapp.education/app/" target="_blank">Prévisions des matières uniformisées</a>
+														<a href="http://yeccolapp.education/apps/" target="_blank">Prévisions des matières uniformisées</a>
 													</li>
 													<li>
 														<a href="#formulaireFormation">Formation et sensibilisation Continue (2030)</a>
@@ -268,13 +268,13 @@
 				<nav id="menu" class="stylehome1">
 					<ul>
 						<li>
-							<a href="http://yeccolapp.education/app/Ecole/" target="_blank">Gestion scolaire</a>
+							<a href="http://yeccolapp.education/apps/Ecole/" target="_blank">Gestion scolaire</a>
 						</li>
 						<li>
 							<a href="#">Prix excellent Élève 2022</a>
 						</li>
 						<li>
-							<a href="http://yeccolapp.education/app/" target="_blank">Prévisions des matières uniformisées</a>
+							<a href="http://yeccolapp.education/apps/" target="_blank">Prévisions des matières uniformisées</a>
 						</li>
 						<li>
 							<a href="#formulaireFormation">Formation et sensibilisation Continue (2030)</a>
@@ -936,8 +936,8 @@
 					<div class="col-sm-12 col-md-12 col-lg-12 bg-dangerM text-center" style="margin-top: 20px;">
 						<!-- h4 class="color-white" style="font-weight: bold; margin-bottom: 15px;">Savoir plus sur les conditions de participation</h4 -->
 						<div class="divider-one">
-							<a class="btn btn-transparent divider-btn" href="{{asset('documents/Bulletin_inscription.pdf')}}" style="margin-right: 10px;">Bulletin d'inscription 2022-2030</a>
-							<a class="btn btn-transparent divider-btn" href="{{asset('documents/Conditions_generales_de_participation.pdf')}}">conditions de participation</a>
+							<a class="btn btn-transparent divider-btn" href="{{asset('documents/Bulletin_inscription.pdf')}}" target="_blank" style="margin-right: 10px;">Bulletin d'inscription 2022-2030</a>
+							<a class="btn btn-transparent divider-btn" href="{{asset('documents/Conditions_generales_de_participation.pdf')}}" target="_blank">conditions de participation</a>
 						</div>						
 					</div>
 				</div>
@@ -1018,17 +1018,17 @@
 							<p></p>
 						</div>
 					</div>
-					<div class="col-sm-6 col-md-4 col-md-3 col-lg-2">
+					<!-- div class="col-sm-6 col-md-4 col-md-3 col-lg-2">
 						<div class="footer_company_widget home3">
 							<h4>YECCOLAPP</h4>
 							<ul class="list-unstyled">
 								<li><a href="#">A propos</a></li>
 								<li><a href="#">Blog</a></li>
-								<li><a href="http://yeccolapp.education/beta/page-contact.html">Contact</a></li>
+								<li><a href="#">Contact</a></li>
 								<li><a href="#">Devenir enseignant</a></li>
 							</ul>
 						</div>
-					</div>
+					</div -->
 					<!-- div class="col-sm-6 col-md-4 col-md-3 col-lg-2">
 						<div class="footer_program_widget home3">
 							<h4>PROGRAMMES</h4>
@@ -1097,8 +1097,8 @@
 						<div class="footer_social_widget mt15">
 							<ul>
 								<li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li class="list-inline-item"><a href="@yeccolapp"><i class="fa fa-twitter"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li class="list-inline-item"><a href="https://twitter.com/yeccolapp" target="_blank"><i class="fa fa-twitter"></i></a></li>
+								<li class="list-inline-item"><a href="https://www.linkedin.com/in/yeccolapp-mail-b98659232" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 							</ul>
 						</div>
 					</div>
