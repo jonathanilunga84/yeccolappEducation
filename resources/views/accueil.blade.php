@@ -2,33 +2,7 @@
 <html dir="ltr" lang="en">
 <head>
 	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="keywords" content="yeccolapp, academy, college, coursera, courses, education, elearning, lms, online course, online education, school, training, university">
-		<meta name="description" content="Yeccolapp, Contenus éducatifs de qualité et uniformisés pour tout enfant, étudiant, enseignants et parents d'élèves Congolais et Africain.(ODD-4)">
-		<meta name="CreativeLayers" content="ATFN">
-		<!-- css file -->
-		<link rel="stylesheet" href="{{asset('styleCss/bootstrap.min.css')}}">
-		<link rel="stylesheet" href="{{asset('styleCss/style.css')}}">
-		<!-- Responsive stylesheet -->
-		<link rel="stylesheet" href="{{asset('styleCss/responsive.css')}}">
-		<!-- Title -->
-		<title>Yeccolapp</title>
-		<!-- Favicon -->
-		<link href="{{asset('images/favicon.ico')}}" sizes="128x128" rel="shortcut icon" type="image/x-icon" />
-		<link href="{{asset('images/favicon.ico')}}" sizes="128x128" rel="shortcut icon" />
-
-		<link rel="stylesheet" type="text/css" href="{{asset('OwlCarousel2-2.3.4/dist/assets/owl.carousel.css')}}" />
-
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-		<!-- link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" -->
-		<link rel="stylesheet" type="text/css" href="{{asset('font-awesome-4.7.0/css/font-awesome.min.css')}}">
-		
-
+		@include('MyInclude.filesCss');
 	</head>
 </head>
 <body>
@@ -54,7 +28,8 @@
 		</div>
 
 		<!-- Main Header Nav -->
-		<header class="header-nav menu_style_home_three navbar-scrolltofixed stricky main-menu">
+		@include("MyInclude.headerMenu")
+		{{-- <header class="header-nav menu_style_home_three navbar-scrolltofixed stricky main-menu">
 			<div class="container-fluid">
 		    	<!-- Ace Responsive Menu -->
 			    <nav>
@@ -89,7 +64,7 @@
 														<a href="http://yeccolapp.education/apps/Ecole/" target="_blank">Gestion scolaire</a>
 													</li>
 													<li>
-														<a href="#">Prix excellent Élève 2022</a>
+														<a href="#">Yeccolapp Award: Concours Féminin d'eloquence</a>
 													</li>
 													<li>
 														<a href="http://yeccolapp.education/apps/" target="_blank">Prévisions des matières uniformisées</a>
@@ -130,7 +105,7 @@
 			    </nav>
 		    	<!-- End of Responsive Menu -->
 			</div>
-		</header>
+		</header> --}}
 
 		<!-- Modal Create Compte And Connexion -->
 		<div class="sign_up_modal modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-hidden="true">
@@ -237,7 +212,8 @@
 
 		<!-- Il ya un menu pour le pobile ici voir ligne 219 du template -->
 			<!-- Main Header Nav For Mobile -->
-			<div id="page" class="stylehome1 h0">
+			@include("MyInclude.headerMenuMobile")
+			{{-- <div id="page" class="stylehome1 h0">
 				<div class="mobile-menu">
 					<div class="header stylehome1">
 						<div class="main_logo_home2">
@@ -271,7 +247,7 @@
 							<a href="http://yeccolapp.education/apps/Ecole/" target="_blank">Gestion scolaire</a>
 						</li>
 						<li>
-							<a href="#">Prix excellent Élève 2022</a>
+							<a href="#">Yeccolapp Award: Concours Féminin d'eloquence</a>
 						</li>
 						<li>
 							<a href="http://yeccolapp.education/apps/" target="_blank">Prévisions des matières uniformisées</a>
@@ -387,7 +363,7 @@
 						<li><a href="page-register.html"><span class="flaticon-edit"></span> Register</a></li -->
 					</ul>
 				</nav>
-			</div>
+			</div> --}}
 		<!-- /End Il ya un menu pour le pobile ici -->
 
 		<!-- Home Design -->
@@ -711,29 +687,6 @@
 					</div>
 	    		</div>
 	    	</div>
-		    
-		    <!-- accordion suites Nos Objectifs -->
-			{{-- <section class="row btn-primaryM" style="padding-top:1px; padding-bottom: 0px;">
-				<div class="col-sm-12 col-md-12 col-lg-12 details text-center">
-					<div id="accordion" class="panel-group cc_tab">
-						<div class="panel bg-dangerM">
-							<!-- div class="panel-heading">
-								<h4 class="panel-title">
-									<a href="#panelBodyCourseStart" class="accordion-toggle link collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">Lire plus</a>
-								</h4>
-							</div -->
-							<div id="panelBodyCourseStart" class="panel-collapse collapse" style="">
-								<div class="panel-body">
-									<p>1. L'accès de tout enfant Congolais et Africain à une éducation de qualité et sans discrimination (ODD4);</p>
-									<p>2. Abonnement aux sessions de formation continue certifiées en alphabétisation numérique: "Aucun parent, enseignant analphabéte numérique d'ici 2030";</p>
-									<p>3. Mixité garçons-filles aux métiers du futur, Sensibilisation continue des élèves, étudiants... à l'usage durable des réseaux sociaux, et à la sécurité de l'information et des infrastructures.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section> --}}
-			<!-- /accordion suites Nos Objectifs -->
 		</section>
 		<!-- /End Objectif -->
 
@@ -1124,35 +1077,7 @@
 		<a class="scrollToHome home3" href="#"><i class="flaticon-up-arrow-1"></i></a>
 	</div>
 	<!-- les fichier js principale nous permet beaucoup de choce  -->
-	<script type="text/javascript" src="{{asset('styleJs/jquery-3.3.1.js')}}"></script>
-	<script type="text/javascript" src="{{asset('styleJs/jquery-migrate-3.0.0.min.js')}}"></script>
-	<script type="text/javascript" src="{{asset('styleJs/popper.min.js')}}"></script>
-	<script type="text/javascript" src="{{asset('styleJs/bootstrap.min.js')}}"></script>
-	<!-- End les fichier js principale nous permet beaucoup de choce  -->
-	<script type="text/javascript" src="{{asset('styleJs/jquery.mmenu.all.js')}}"></script>
-	<script type="text/javascript" src="{{asset('styleJs/ace-responsive-menu.js')}}"></script>
-	<script type="text/javascript" src="{{asset('styleJs/bootstrap-select.min.js')}}"></script>
-	<script type="text/javascript" src="{{asset('styleJs/isotop.js')}}"></script>
-	<script type="text/javascript" src="{{asset('styleJs/snackbar.min.js')}}"></script>
-	<script type="text/javascript" src="{{asset('styleJs/simplebar.js')}}"></script>
-	<script type="text/javascript" src="{{asset('styleJs/parallax.js')}}"></script>
-	<script type="text/javascript" src="{{asset('styleJs/scrollto.js')}}"></script>
-	<script type="text/javascript" src="{{asset('styleJs/jquery-scrolltofixed-min.js')}}"></script>
-	<script type="text/javascript" src="{{asset('styleJs/jquery.counterup.js')}}"></script>
-	<script type="text/javascript" src="{{asset('styleJs/wow.min.js')}}"></script>
-	<script type="text/javascript" src="{{asset('styleJs/progressbar.js')}}"></script>
-	<script type="text/javascript" src="{{asset('styleJs/slider.js')}}"></script>
-	<script type="text/javascript" src="{{asset('styleJs/timepicker.js')}}"></script>
-	<!-- Custom script for all pages --> 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
-
-	<script src="{{asset('styleJs/mainAjax.js')}}" type="text/javascript"></script>
-	<script src="{{asset('OwlCarousel2-2.3.4/dist/owl.carousel.js')}}" type="text/javascript"></script>
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-	<!-- le script ecrit a la mais  -->
-	<script type="text/javascript" src="{{asset('styleJs/script.js')}}"></script>
+	@include('MyInclude.filesJs')
 	
 	<script>
 		$('.mySlider_responsive').slick({

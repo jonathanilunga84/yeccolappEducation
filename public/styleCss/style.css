@@ -5346,7 +5346,8 @@ header.header-nav.menu_style_home_seven .ace-responsive-menu > li.last{
 }
 /*== Inner Pages Breadcrumb ==*/
 .inner_page_breadcrumb {
-  background-image: url(../images/background/inner-pagebg.jpg);
+  /*background-image: url(../images/background/inner-pagebg.jpg);*/
+  background-image: url("../images/background/inner-pagebg.jpg");
   background-repeat: no-repeat;
   height: 400px;
   margin-top: -1px;
@@ -13900,4 +13901,33 @@ header.header-nav.menu_style_home_one.new_style .sign_up_btn li.list_s{
 .mycarousel{
   /*border: 2px solid red;*/
   margin-left: 10px;
+}
+
+/*====== section noEdition ======*/
+
+.noEdition-bg{
+  /*background-image: url(../images/background/6.jpg);*/
+  /*background-image: url("../images/background/inner-pagebg.jpg");*/
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  height: 250px;
+}
+
+.noEdition-row{
+  position: relative;
+  top: 170px;
+}
+
+.imagesEdition{
+  /*background-color: #f9fafc;*/
+ /* background-color: rgba(25, 38, 117, 0.8);*/
+}
+.imagesEdition img {
+  object-fit: contain;
+  height: 500px;
+}
+
+.videoEdition{
+  background-color: rgba(25, 38, 117, 0.8);
 }

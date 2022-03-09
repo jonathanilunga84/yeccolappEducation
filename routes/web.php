@@ -19,6 +19,10 @@ use App\Http\Controllers\FormationMailController;
 });*/
 Route::get('/', function () {
     return view('accueil');
-});
+})->name('accueil');
+
+Route::get('/nos-edition', function(){
+    return view('noEdition');
+})->name('NosEdition');
 
 Route::post('/send-mail',[FormationMailController::class, 'sendMail'])->name('SendFormationMail');

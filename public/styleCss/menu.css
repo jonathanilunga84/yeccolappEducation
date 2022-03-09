@@ -861,3 +861,8 @@ header.stylehome1.home4 a {
 /* Small devices (min-width: 576px) (max-width: 767.98px) // (landscape phones, less than 768px) */
 
 @media only screen and (max-width: 767.98px) {}
+
+#head_Nos_Edition{
+    background-color: yellow;
+    height: 500px;
+}

@@ -994,6 +994,10 @@
 	.banner-style-one.home9 .owl-dots .owl-dot.active span,
 	.banner-style-one.home9 .owl-dots .owl-dot span{max-width: 70px;}
 
+	/*.imagesEdition .img-One{background-color: yellow !important; }*/
+	.imagesEdition .img-One img{margin-bottom: -100px; margin-top: -100px;}
+	.imagesEdition .img-Twee img{margin-bottom: -100px; margin-top: -100px;}
+
 	/*.blog_slider_home1 .owl-item{} width: auto !important; max-width:px;*/
 
 	/*.blog_slider_home1 .blog_post.one .thumb img{width: auto; height: 330px; }*/
