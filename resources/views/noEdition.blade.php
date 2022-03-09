@@ -139,8 +139,8 @@
 		<!-- /End Il ya un menu pour le pobile ici -->
 
 		<!-- Section nos Edition -->
-		<section class="home-three home3-overlay  noEdition-bg home3_bgi6M">
-			<div class="container">
+		<section class="home-three home3-overlay noEdition-bg home3_bgi6M">
+			<div class="container"> 
 				<div class="row posrM noEdition-row bg-dangerM">
 					<div class="col-lg-12">
 						<div class="home-textM text-center">

@@ -1,10 +1,12 @@
 <div id="page" class="stylehome1 h0">
 				<div class="mobile-menu">
 					<div class="header stylehome1">
+						<a href="{{route('accueil')}}">
 						<div class="main_logo_home2">
 							<img class="nav_logo_img img-fluid float-left mt20" src="{{asset('images/header-logo.png')}}" alt="header-logo.png">
 							<span>Yeccolapp</span>
 						</div>
+						</a>
 						<ul class="menu_bar_home2">
 							<li class="list-inline-item">
 								<div class="search_overlay">

@@ -13931,3 +13931,11 @@ header.header-nav.menu_style_home_one.new_style .sign_up_btn li.list_s{
 .videoEdition{
   background-color: rgba(25, 38, 117, 0.8);
 }
+
+.home-three.noEdition-bg{
+  margin-top: -150px;
+}
+
+.home-three.home3-overlay{
+  margin-top: -150px;
+}
